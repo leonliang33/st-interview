@@ -41,7 +41,7 @@ const ProductOverview = () => {
     return (
         data.map((product) => {
             return (
-                <Card alignItems="left" style={{margin: 15, padding: 15}}>
+                <Card style={{margin: 15, padding: 15}}>
                     <img className="blender-image" style={{height: 150, padding: 20}} src={product.image}/>
                     <CardContent style={{width: 250}}>
                     {createTitle(product)}
